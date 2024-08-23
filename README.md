@@ -1,5 +1,6 @@
 这是Xilinx ZYNQ7000系列芯片内的逻辑内核AXI DMA(AXI Direct Memory)，是使用Xilinx Vivado 设计工具而设计的软核，在内存和AXI流目标外设之间提供了高带宽的内存直连访问。
 AXI DMA(AXI Direct Memory)IP核，具有两种模式，分别为独立分散/聚集模式和直接寄存器模式，具体参考pg021_axi_dma_PG021.pdf文档。
+
 地址偏移 	名称 			描述 
 00h 		MM2S_DMACR 		MM2S DMA控制寄存器 
 04h 		MM2S_DMASR 		MM2S DMA状态寄存器 
